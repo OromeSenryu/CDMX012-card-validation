@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
+
+
+.container {
+  font-family: 'Glory', sans-serif;
+	background:#BAABDA;
+  width: 90%;
+	max-width: 750px;
+	padding: 35px 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-title {
+  font-size: 45px;
+}
+
+.card-model {
+  max-width: 80%;
+  margin-bottom: 1px;
+}
+
+.card-form{
+  background:#BAABDA;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px 20px 30px 20px;
+  border-radius: 10px;
+  position: relative;
+  top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  z-index: 1;
+  clip-path: polygon(0 0,100% 0,100% 100%, 0 100%);
+}
+
+.card-form label {
+  display: block;
+  color: #121212;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.input-textarea {
+  margin-top: 10px;
+  min-height: 160px;
+  width: 80%;
+  padding: 0.6rem;
+  resize: vertical;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.input-text {
+  margin-top: 10px;
+  display: block;
+  width: 80%;
+  height: 2rem;
+  padding: 0.30rem 0.50rem;
+  color: #121212;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #121212;
+  border-radius: 0.25rem;
+  font-size: 20px;
+  font-family: 'Glory', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+/* .flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  } */
+
+.submit-button {
+  font-family: 'Glory', sans-serif;
+  font-size: 35px;
+  background-color: #D6E5FA;
+  display: block;
+  width: 40%;
+  padding: 0.65rem;
+  border-radius: 0.45rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  }
+
+.submit-button:hover {
+  background-color: #ADCEFE;
+  }
+
+.validateAlert {
+  position: relative;
+  margin-bottom: 150px;
+  }
+  
+.valid {
+  font-family: 'Glory', sans-serif;
+  font-size: 30px;
+  background-color: #93E19B;
+  width: auto;
+  height: auto;
+  padding: 25px 20px 25px 20px;
+  text-align: center;
+  border-radius: 0.25rem;
+  border: 2px solid #121212;
+  }
+
+.invalid {
+  font-family: 'Glory', sans-serif;
+  font-size: 30px;
+  background-color: #F49797;
+  width: auto;
+  height: auto;
+  padding: 25px 20px 25px 20px;
+  position: relative;
+  text-align: center;
+  border-radius: 0.25rem;
+  border: 2px solid #121212;
+  }
